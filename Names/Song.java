@@ -20,13 +20,11 @@ public class Song
         this.playCount = playCount;
     }
 
-    // public void print()
-    // {
-        
-    //     System.out.println(" " + songTitle + "|" + artistName + " | " + playCount);
-    // }
+    
 
-
+/*
+ * This method returns the songtitle when called.
+ */
     public String getSongTitle() {
 		return songTitle;
 	}
