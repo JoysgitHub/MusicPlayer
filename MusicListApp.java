@@ -130,7 +130,10 @@ public class MusicListApp
 
         Boolean songDeleted = false;
         int size = songs.size();
-       
+       /*
+       *This line of code uses a loop to force the user to enter 
+       * a number in the index.
+       */
 
         while(!songDeleted)
         {
